@@ -1,0 +1,61 @@
+.logo {
+height: 30px;
+}
+
+@font-face {
+    font-family: 'ninomtavrulinormal';
+    src: url(/fonts/bpg_nino_mtavruli_normal.ttf);    
+  }
+  @font-face {
+    font-family: 'ninomtavrulibold';
+    src: url(/fonts/bpg_nino_mtavruli_bold.otf);    
+  }
+  @font-face {
+    font-family: robot;
+    src: url(/fonts/ROBOTOP.ttf);    
+  }
+
+  body {  
+    font-family: 'ninomtavrulibold';
+
+      }
+.main-body {
+    height: 750px;
+    margin: 0 auto 0 30px;
+    display: block;
+    
+}
+
+.main-menu p a {
+    height: 18px;
+    text-decoration: none;
+    
+}
+.active-link {
+    color: red;
+}
+.main-menu p a:active{
+    color: red;
+}
+
+a {    
+    text-decoration: none;
+}
+
+.midder-text {
+
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 225px;
+    left: 50px;
+    font-size: 25px;
+    color: #fff;
+
+}
+
+.footer-logo img {
+    display: inline;
+    height: 30px;
+    margin: 32px 26px 0 10px
+}
